@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: newsapp-service
+  labels:
+    app: newsapp
+spec:
+  type: NodePort
+  ports:
+  - name: app-ui-port
+    targetPort: 9003
+    port: 9003
+  selector:
+    app: newsapp

@@ -1,0 +1,7 @@
+# Default values for newsapp_chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+imageName: eume/go_news_app
+appVersion: v1
+port: 9003

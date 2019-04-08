@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: newsapp-pod
+  labels:
+    app: newsapp
+spec:
+  containers:
+  - name: golang-news-app
+    image: eume/go_news_app:v1
+    ports:
+     - name: app-ui-port
+       containerPort: 9003

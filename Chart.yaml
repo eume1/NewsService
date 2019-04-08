@@ -1,0 +1,10 @@
+apiVersion: v1
+appVersion: "v1.0"
+description: A Helm chart for News app written in Go
+name: newsapp_chart
+version: 1.0
+keywords:
+  - news
+  - golang
+maintainers:
+  - name: Emeka Ume
