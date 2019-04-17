@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: golang-news-app
-    image: eume/go_news_app:v1
+    image: {{ .Values.imageName }}:{{ .Values.appVersion }}
     ports:
      - name: app-ui-port
        containerPort: 9003
